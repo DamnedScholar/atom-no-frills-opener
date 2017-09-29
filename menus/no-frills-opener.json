@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+    "tree-view": [
+      {
+        "label": "Open with no frills",
+        "command": "no-frills-opener:open"
+      }
+    ]
+  }
+}

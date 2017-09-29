@@ -1,0 +1,18 @@
+{
+  "name": "no-frills-opener",
+  "main": "./lib/no-frills-opener",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "no-frills-opener:toggle"
+  },
+  "repository": "https://github.com/atom/no-frills-opener",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
