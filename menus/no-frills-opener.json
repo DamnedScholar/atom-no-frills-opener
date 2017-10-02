@@ -1,10 +1,14 @@
 {
   "context-menu": {
-    "tree-view": [
+    ".tree-view": [
       {
         "label": "Open with no frills",
         "command": "no-frills-opener:open"
-      }
+    },
+    {
+      "label": "Event to console",
+      "command": "no-frills-opener:test"
+    }
     ]
   }
 }

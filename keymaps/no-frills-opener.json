@@ -1,5 +1,20 @@
 {
-  "atom-workspace": {
-    "ctrl-alt-o": "no-frills-opener:toggle"
+  ".no-frills-view": {
+    "ctrl-s": "no-frills-opener:save",
+    "ctrl-x": "no-frills-opener:cut",
+    "ctrl-c": "no-frills-opener:copy",
+    "ctrl-v": "no-frills-opener:paste",
+    "ctrl-i": "no-frills-opener:log-element",
+    "ctrl-s": "no-frills-opener:list-open-tabs",
+    "backspace": "no-frills-opener:backspace",
+    "delete": "no-frills-opener:delete",
+    "up": "no-frills-opener:up",
+    "shift-up": "no-frills-opener:select-up",
+    "down": "no-frills-opener:down",
+    "shift-down": "no-frills-opener:select-down",
+    "left": "no-frills-opener:left",
+    "shift-left": "no-frills-opener:select-left",
+    "right": "no-frills-opener:right",
+    "shift-right": "no-frills-opener:select-right"
   }
 }

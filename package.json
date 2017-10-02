@@ -1,18 +1,25 @@
 {
   "name": "no-frills-opener",
   "main": "./lib/no-frills-opener",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "no-frills-opener:toggle"
+  "deserializers": {
+      "no-frills-opener": "deserialize"
   },
-  "repository": "https://github.com/atom/no-frills-opener",
+  "version": "0.0.0",
+  "description": "An alternative opener to open files as plain text.",
+  "keywords": [
+      "opener",
+      "plain text",
+      "large files"
+  ],
+  "repository": "https://github.com/damnedscholar/atom-no-frills-opener",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "devDependencies": {
+    "coffeescript": "^2.0.1"
+  },
   "dependencies": {
+    "etch": "^0.12.6"
   }
 }
